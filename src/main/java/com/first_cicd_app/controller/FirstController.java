@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class FirstController {
     @GetMapping("/message")
     public String getMessage() {
-        return "Your app is working";
+        return "Your app is working plus boosted";
     }
 }
